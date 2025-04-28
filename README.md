@@ -25,6 +25,7 @@ Project 2: Virtual Drawing Canvas
 Use specific gestures to select drawing modes, colors, or clear the canvas.
 
 - Technical Specification:
+
   1.Computer Vision Techniques:
     -Hand landmark detection using MediaPipe Hands.
     -Gesture recognition based on detected finger positions.
@@ -34,7 +35,7 @@ Use specific gestures to select drawing modes, colors, or clear the canvas.
 - MediaPipe (hand tracking, landmark detection).
 - NumPy (canvas management).
 
- Workflow:
+ 3.Workflow:
    1. Capture webcam feed and extract hand landmarks.
    2. Classify gestures based on landmark positions.
    3. Interpret gestures to draw shapes/colors on a virtual canvas overlay.
