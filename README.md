@@ -26,7 +26,8 @@ Use specific gestures to select drawing modes, colors, or clear the canvas.
 
 - Technical Specification:
 
-  1.Computer Vision Techniques:
+1.Computer Vision Techniques:
+    
     -Hand landmark detection using MediaPipe Hands.
     -Gesture recognition based on detected finger positions.
 
