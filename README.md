@@ -1,7 +1,7 @@
 # Intelligent-NVR-cv
 Intelligent NVR CV usually refers to a network video recorder that uses computer vision to automatically detect,classify , track or alert about things happening in the video.
 
-1.Webcam based
+Project 1.Webcam based
 ▪ This project utilizes opencv and mediapipe to detect human poses in 
 real time.
 
@@ -12,22 +12,28 @@ real time.
 ▪ Features include:
 - Pose estimation from a live webcam feed.
 - Timer to track duration of detected pose.
+
 How it works:
 
 Project 2: Virtual Drawing Canvas
-Overview: A real-time interactive application that enables users to draw digitally on a virtual canvas using hand gestures tracked by a webcam feed.
+ 
+ A real-time interactive application that enables users to draw digitally on a virtual canvas using hand gestures tracked by a webcam feed.
+
 - Functionalities:
   Users can draw lines, circles, rectangles, and freehand shapes.
 Use specific gestures to select drawing modes, colors, or clear the canvas.
+
 - Technical Specification:
   1.Computer Vision Techniques:
     -Hand landmark detection using MediaPipe Hands.
     -Gesture recognition based on detected finger positions.
+
  2.Libraries & Tools:
 - OpenCV (camera feed, image processing).
 - MediaPipe (hand tracking, landmark detection).
 - NumPy (canvas management).
-- Workflow:
+-
+-  Workflow:
    1. Capture webcam feed and extract hand landmarks.
    2. Classify gestures based on landmark positions.
    3. Interpret gestures to draw shapes/colors on a virtual canvas overlay.
