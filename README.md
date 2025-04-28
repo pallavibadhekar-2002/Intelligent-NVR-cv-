@@ -16,6 +16,28 @@ real time.
 
 How it works:
 
+Initialize webcam 
+
+Open video stream using OpenCV.
+
+Load person detection model 
+
+using MediaPipe, YOLO, OpenCV .
+
+For each frame from webcam:
+
+1. Detect all people in the frame.
+
+2. set timer for each person
+
+Display:
+
+Show bounding box + timer for each detected person on screen.
+
+End:
+
+Release webcam, close windows on quit.
+
 Project 2: Virtual Drawing Canvas
  
  A real-time interactive application that enables users to draw digitally on a virtual canvas using hand gestures tracked by a webcam feed.
@@ -27,6 +49,7 @@ Use specific gestures to select drawing modes, colors, or clear the canvas.
 - Technical Specification:
 
 1.Computer Vision Techniques:
+    
     -Hand landmark detection using MediaPipe Hands.
     -Gesture recognition based on detected finger positions.
 
