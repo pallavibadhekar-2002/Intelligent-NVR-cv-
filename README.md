@@ -16,25 +16,25 @@ real time.
 
 How it works:
 
-Initialize webcam 
+- Initialize webcam 
 
 Open video stream using OpenCV.
 
-Load person detection model 
+- Load person detection model 
 
 using MediaPipe, YOLO, OpenCV .
 
-For each frame from webcam:
+- For each frame from webcam:
 
 1. Detect all people in the frame.
 
 2. set timer for each person
 
-Display:
+- Display:
 
 Show bounding box + timer for each detected person on screen.
 
-End:
+- End:
 
 Release webcam, close windows on quit.
 
