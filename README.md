@@ -32,7 +32,7 @@ using MediaPipe, YOLO, OpenCV .
 
 - Display:
 
-Show bounding box + timer for each detected person on screen.
+detecting each person + timer for each detected person on screen.
 
 - End:
 
